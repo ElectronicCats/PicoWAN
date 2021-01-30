@@ -439,11 +439,11 @@ X EP 9 100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PicoWAN-rescue_RP2040-MCU_RaspberryPi_and_Boards
+# PicoWAN-rescue_RP2040-MCU_RaspberryPi_and_Boards-PicoWAN-rescue
 #
-DEF PicoWAN-rescue_RP2040-MCU_RaspberryPi_and_Boards U 0 40 Y Y 1 F N
+DEF PicoWAN-rescue_RP2040-MCU_RaspberryPi_and_Boards-PicoWAN-rescue U 0 40 Y Y 1 F N
 F0 "U" -1150 1950 50 H V C CNN
-F1 "PicoWAN-rescue_RP2040-MCU_RaspberryPi_and_Boards" 950 -1950 50 H V C CNN
+F1 "PicoWAN-rescue_RP2040-MCU_RaspberryPi_and_Boards-PicoWAN-rescue" 950 -1950 50 H V C CNN
 F2 "RP2040_minimal:RP2040-QFN-56" -750 0 50 H I C CNN
 F3 "" -750 0 50 H I C CNN
 DRAW
