@@ -1,6 +1,6 @@
 # PicoWAN
 
-PicoWAN is all the best in the world format Feather and LoRa with a Raspberry Pico core!, Feather pin to pin compatible with a USB-C port.
+PicoWAN is all the best in the world format Feather and LoRa with a Raspberry Pico Core!, Feather pin to pin compatible with a USB-C port.
 
 We love all our Feathers equally, but this Feather is very special. It's our first Feather that is specifically designed for use with CircuitPython! CircuitPython is our beginner-oriented flavor of MicroPython - and as the name hints at, its a small but full-featured version of the popular Python programming language specifically for use with circuitry and electronics.
 
