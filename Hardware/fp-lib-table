@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name pico-wan)(type KiCad)(uri ${KIPRJMOD}/KiCadLibraries/pico-wan.pretty)(options "")(descr ""))
+)
