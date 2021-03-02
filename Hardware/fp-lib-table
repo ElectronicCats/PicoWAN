@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name pico-wan)(type KiCad)(uri ${KIPRJMOD}/KiCadLibraries/pico-wan.pretty)(options "")(descr ""))
   (lib (name ElectronicCats-KiCad-Libraries-master)(type KiCad)(uri ${KIPRJMOD}/ElectronicCats-KiCad-Libraries-master)(options "")(descr ""))
+  (lib (name hunter-cat-nfc)(type KiCad)(uri ${KIPRJMOD}/hunter-cat-nfc.pretty)(options "")(descr ""))
 )
