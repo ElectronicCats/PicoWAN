@@ -152,67 +152,25 @@ SWCLK
 Text Label 1920 4845 2    50   ~ 0
 SWDIO
 $Comp
-L Device:Crystal_Small Y1
-U 1 1 60168897
-P 1570 3695
-F 0 "Y1" V 1524 3783 50  0000 L CNN
-F 1 "12Mhz" V 1410 3575 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" H 1570 3695 50  0001 C CNN
-F 3 "https://lcsc.com/product-detail/SMD-Crystal-Resonators_JWT-CM4012M00020T8188026_C709001.html" H 1570 3695 50  0001 C CNN
-F 4 "C709001" H 1570 3695 50  0001 C CNN "manf#"
-	1    1570 3695
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1570 3795 1800 3795
-Wire Wire Line
-	1570 3795 1440 3795
-Connection ~ 1570 3795
-Wire Wire Line
-	1570 3595 1440 3595
-Connection ~ 1570 3595
-$Comp
 L Device:C_Small C1
 U 1 1 6016C552
-P 1340 3595
-F 0 "C1" V 1111 3595 50  0000 C CNN
-F 1 "22pF" V 1202 3595 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1340 3595 50  0001 C CNN
-F 3 "~" H 1340 3595 50  0001 C CNN
-	1    1340 3595
-	0    1    1    0   
+P 975 4155
+F 0 "C1" V 746 4155 50  0000 C CNN
+F 1 "22pF" V 837 4155 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 975 4155 50  0001 C CNN
+F 3 "~" H 975 4155 50  0001 C CNN
+	1    975  4155
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C2
 U 1 1 6016CD06
-P 1340 3795
-F 0 "C2" V 1460 3795 50  0000 C CNN
-F 1 "22pF" V 1530 3795 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1340 3795 50  0001 C CNN
-F 3 "~" H 1340 3795 50  0001 C CNN
-	1    1340 3795
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1240 3595 1180 3595
-Wire Wire Line
-	1180 3595 1180 3705
-Wire Wire Line
-	1180 3795 1240 3795
-Wire Wire Line
-	1180 3705 1090 3705
-Connection ~ 1180 3705
-Wire Wire Line
-	1180 3705 1180 3795
-$Comp
-L power:GND #PWR01
-U 1 1 6016E9D0
-P 1090 3705
-F 0 "#PWR01" H 1090 3455 50  0001 C CNN
-F 1 "GND" H 1095 3532 50  0000 C CNN
-F 2 "" H 1090 3705 50  0001 C CNN
-F 3 "" H 1090 3705 50  0001 C CNN
-	1    1090 3705
+P 1475 4180
+F 0 "C2" V 1595 4180 50  0000 C CNN
+F 1 "22pF" V 1665 4180 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1475 4180 50  0001 C CNN
+F 3 "~" H 1475 4180 50  0001 C CNN
+	1    1475 4180
 	1    0    0    -1  
 $EndComp
 Text Label 1890 2245 2    50   ~ 0
@@ -235,10 +193,6 @@ Wire Wire Line
 	4550 2395 4650 2395
 Wire Wire Line
 	4550 2495 4660 2495
-Text Label 4660 2195 0    50   ~ 0
-TX
-Text Label 4660 2295 0    50   ~ 0
-RX
 Text Label 4650 2395 0    50   ~ 0
 SDA
 Text Label 4660 2495 0    50   ~ 0
@@ -300,8 +254,6 @@ F 3 "~" H 1900 3795 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2050 3795 2000 3795
-Wire Wire Line
-	1570 3595 2050 3595
 Wire Wire Line
 	4550 4895 4650 4895
 Wire Wire Line
@@ -1277,7 +1229,7 @@ F 1 "1K" H 6100 8775 40  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 5930 8840 30  0001 C CNN
 F 3 "" H 6000 8840 60  0001 C CNN
 F 4 "" H 6330 8495 50  0000 C CNN "Place"
-F 5 "not needed since we don't read VCC_SIM" H 6000 8840 50  0001 C CNN "Note"
+F 5 "" H 6000 8840 50  0001 C CNN "Note"
 F 6 "CRCW06031K00FKEAC" H 6000 8840 50  0001 C CNN "manf#"
 	1    6000 8840
 	1    0    0    -1  
@@ -1308,7 +1260,7 @@ F 1 "2K" H 5110 8820 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4910 8885 30  0001 C CNN
 F 3 "" H 4980 8885 60  0001 C CNN
 F 4 "" H 5310 8540 50  0000 C CNN "Place"
-F 5 "not needed since we don't read VCC_SIM" H 4980 8885 50  0001 C CNN "Note"
+F 5 "" H 4980 8885 50  0001 C CNN "Note"
 F 6 "CRCW06032K00FKEAC" H 4980 8885 50  0001 C CNN "manf#"
 	1    4980 8885
 	1    0    0    -1  
@@ -1361,7 +1313,7 @@ F 1 "100K" H 1325 8560 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1125 8625 30  0001 C CNN
 F 3 "" H 1195 8625 60  0001 C CNN
 F 4 "" H 1525 8280 50  0000 C CNN "Place"
-F 5 "not needed since we don't read VCC_SIM" H 1195 8625 50  0001 C CNN "Note"
+F 5 "" H 1195 8625 50  0001 C CNN "Note"
 F 6 "CRCW0603100KFKEAC" H 1195 8625 50  0001 C CNN "manf#"
 	1    1195 8625
 	1    0    0    -1  
@@ -2005,4 +1957,77 @@ F 3 "~" H 1685 8145 50  0001 C CNN
 	1    1685 8145
 	1    0    0    -1  
 $EndComp
+Text Label 4660 2295 0    50   ~ 0
+RX
+Text Label 4660 2195 0    50   ~ 0
+TX
+$Comp
+L power:GND #PWR0101
+U 1 1 604667F3
+P 975 4305
+F 0 "#PWR0101" H 975 4055 50  0001 C CNN
+F 1 "GND" H 980 4132 50  0000 C CNN
+F 2 "" H 975 4305 50  0001 C CNN
+F 3 "" H 975 4305 50  0001 C CNN
+	1    975  4305
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	975  4305 975  4255
+$Comp
+L power:GND #PWR0102
+U 1 1 60475A7D
+P 1475 4330
+F 0 "#PWR0102" H 1475 4080 50  0001 C CNN
+F 1 "GND" H 1480 4157 50  0000 C CNN
+F 2 "" H 1475 4330 50  0001 C CNN
+F 3 "" H 1475 4330 50  0001 C CNN
+	1    1475 4330
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1475 4330 1475 4280
+Wire Wire Line
+	975  3930 1060 3930
+Wire Wire Line
+	975  3930 975  4055
+Wire Wire Line
+	1475 3795 1800 3795
+Wire Wire Line
+	2050 3595 975  3595
+Wire Wire Line
+	975  3595 975  3930
+Connection ~ 975  3930
+$Comp
+L power:GND #PWR0103
+U 1 1 60512685
+P 1210 4315
+F 0 "#PWR0103" H 1210 4065 50  0001 C CNN
+F 1 "GND" H 1215 4142 50  0000 C CNN
+F 2 "" H 1210 4315 50  0001 C CNN
+F 3 "" H 1210 4315 50  0001 C CNN
+	1    1210 4315
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1210 4315 1210 4130
+$Comp
+L Device:Crystal_GND2 Y2
+U 1 1 605379E4
+P 1210 3930
+F 0 "Y2" H 1210 4198 50  0000 C CNN
+F 1 "12Mhz" H 1210 4107 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" H 1210 3930 50  0001 C CNN
+F 3 "https://lcsc.com/product-detail/SMD-Crystal-Resonators_JWT-CM4012M00020T8188026_C709001.html" H 1210 3930 50  0001 C CNN
+F 4 "C709001" H 1210 3930 50  0001 C CNN "manf#"
+	1    1210 3930
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1475 3795 1475 3930
+Wire Wire Line
+	1360 3930 1475 3930
+Connection ~ 1475 3930
+Wire Wire Line
+	1475 3930 1475 4080
 $EndSCHEMATC
