@@ -1816,7 +1816,7 @@ P 8820 8625
 F 0 "U5" H 8420 9185 50  0000 C CNN
 F 1 "RFM95W-868S2" H 8405 9085 50  0000 C CNN
 F 2 "RF_Module:HOPERF_RFM9XW_SMD" H 5520 10275 50  0001 C CNN
-F 3 "" H 5520 10275 50  0001 C CNN
+F 3 "https://www.seeedstudio.com/RFM95-Ultra-long-Range-Transceiver-Module-LoRa-Module-support-868M-frequency-p-2807.html" H 5520 10275 50  0001 C CNN
 	1    8820 8625
 	1    0    0    -1  
 $EndComp
