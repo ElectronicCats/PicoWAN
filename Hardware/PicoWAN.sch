@@ -176,16 +176,16 @@ SDA
 Text Label 4660 2495 0    50   ~ 0
 SCL
 Wire Wire Line
-	4550 4195 4700 4195
+	4550 4195 4665 4195
 Wire Wire Line
-	4550 4095 4700 4095
+	4550 4095 4660 4095
 Wire Wire Line
-	4550 3995 4700 3995
-Text Label 4700 3995 0    50   ~ 0
+	4550 3995 4665 3995
+Text Label 4665 3995 0    50   ~ 0
 SCK_0
-Text Label 4700 4095 0    50   ~ 0
+Text Label 4660 4095 0    50   ~ 0
 COPI_0
-Text Label 4700 4195 0    50   ~ 0
+Text Label 4660 3795 0    50   ~ 0
 CIPO_0
 Wire Wire Line
 	4550 2895 4670 2895
@@ -200,9 +200,9 @@ Wire Wire Line
 Wire Wire Line
 	4550 3395 4670 3395
 Wire Wire Line
-	4550 3495 4670 3495
+	4550 3495 4650 3495
 Wire Wire Line
-	4550 3595 4670 3595
+	4550 3595 4660 3595
 Text Label 4670 2895 0    50   ~ 0
 D4
 Text Label 4670 2995 0    50   ~ 0
@@ -213,9 +213,9 @@ Text Label 4670 3195 0    50   ~ 0
 D9
 Text Label 4670 3295 0    50   ~ 0
 D10
-Text Label 4670 3595 0    50   ~ 0
+Text Label 4665 4295 0    50   ~ 0
 D13
-Text Label 4670 3495 0    50   ~ 0
+Text Label 4665 4195 0    50   ~ 0
 D12
 Text Label 4670 3395 0    50   ~ 0
 D11
@@ -1052,34 +1052,34 @@ Wire Notes Line
 Wire Notes Line
 	10250 10115 10240 10115
 Wire Wire Line
-	4550 3695 4665 3695
+	4550 3695 4660 3695
 Wire Wire Line
 	4550 3795 4660 3795
 Wire Wire Line
 	4550 3895 4660 3895
-Text Label 4665 3695 0    50   ~ 0
+Text Label 4660 3595 0    50   ~ 0
 SCK_1
-Text Label 4660 3795 0    50   ~ 0
+Text Label 4650 3495 0    50   ~ 0
 CIPO_1
-Text Label 4660 3895 0    50   ~ 0
+Text Label 4660 3695 0    50   ~ 0
 COPI_1
-Text Label 4695 4295 0    50   ~ 0
+Text Label 4660 3895 0    50   ~ 0
 CS_1
 Wire Wire Line
-	4550 4295 4695 4295
+	4550 4295 4665 4295
 NoConn ~ 9320 8725
 NoConn ~ 9320 8625
 Wire Wire Line
-	4550 4395 4680 4395
+	4550 4395 4665 4395
 Wire Wire Line
-	4550 4495 4685 4495
+	4550 4495 4665 4495
 Wire Wire Line
-	4550 4595 4685 4595
+	4550 4595 4670 4595
 Wire Wire Line
 	4550 4695 4675 4695
-Text Label 4680 4395 0    50   ~ 0
+Text Label 4665 4395 0    50   ~ 0
 DIO5
-Text Label 4685 4495 0    50   ~ 0
+Text Label 4665 4495 0    50   ~ 0
 DIO2
 Text Label 4655 2595 0    50   ~ 0
 DIO1
@@ -1372,7 +1372,7 @@ Wire Wire Line
 	4550 2695 4655 2695
 Text Label 12910 3175 0    50   ~ 0
 D4
-Text Label 4685 4595 0    50   ~ 0
+Text Label 4670 4595 0    50   ~ 0
 D24
 Text Label 4675 4695 0    50   ~ 0
 D25
