@@ -1273,11 +1273,11 @@ Text Label 12915 3075 0    50   ~ 0
 TX
 Text Label 12915 2975 0    50   ~ 0
 RX
-Text Label 12915 2875 2    50   ~ 0
-CIPO_0
-Text Label 12915 2775 2    50   ~ 0
-COPI_0
 Text Label 12915 2675 2    50   ~ 0
+CIPO_0
+Text Label 12915 2875 2    50   ~ 0
+COPI_0
+Text Label 12915 2775 2    50   ~ 0
 SCK_0
 Text Label 14110 2770 0    50   ~ 0
 SDA
