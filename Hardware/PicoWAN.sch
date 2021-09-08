@@ -112,9 +112,9 @@ F 3 "" H 2950 1395 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 1795 4650 1795
+	4550 1795 4605 1795
 Wire Wire Line
-	4550 1895 4650 1895
+	4550 1895 4605 1895
 Text Label 4950 1895 0    50   ~ 0
 D-
 Text Label 4960 1795 0    50   ~ 0
@@ -2105,4 +2105,18 @@ F 5 "HGC0402G0220J500NTEJ" H 975 4155 50  0001 C CNN "manf#"
 	1    975  4155
 	1    0    0    -1  
 $EndComp
+Text Label 4605 1705 1    50   ~ 0
+RD+
+Text Label 4605 1930 3    50   ~ 0
+RD-
+Wire Wire Line
+	4605 1705 4605 1795
+Connection ~ 4605 1795
+Wire Wire Line
+	4605 1795 4650 1795
+Wire Wire Line
+	4605 1930 4605 1895
+Connection ~ 4605 1895
+Wire Wire Line
+	4605 1895 4650 1895
 $EndSCHEMATC
