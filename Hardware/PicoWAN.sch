@@ -112,9 +112,9 @@ F 3 "" H 2950 1395 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 1795 4650 1795
+	4550 1795 4605 1795
 Wire Wire Line
-	4550 1895 4650 1895
+	4550 1895 4605 1895
 Text Label 4950 1895 0    50   ~ 0
 D-
 Text Label 4960 1795 0    50   ~ 0
@@ -176,16 +176,16 @@ SDA
 Text Label 4660 2495 0    50   ~ 0
 SCL
 Wire Wire Line
-	4550 4195 4700 4195
+	4550 4195 4665 4195
 Wire Wire Line
-	4550 4095 4700 4095
+	4550 4095 4660 4095
 Wire Wire Line
-	4550 3995 4700 3995
-Text Label 4700 3995 0    50   ~ 0
+	4550 3995 4665 3995
+Text Label 4665 3995 0    50   ~ 0
 SCK_0
-Text Label 4700 4095 0    50   ~ 0
+Text Label 4660 4095 0    50   ~ 0
 COPI_0
-Text Label 4700 4195 0    50   ~ 0
+Text Label 4660 3795 0    50   ~ 0
 CIPO_0
 Wire Wire Line
 	4550 2895 4670 2895
@@ -200,9 +200,9 @@ Wire Wire Line
 Wire Wire Line
 	4550 3395 4670 3395
 Wire Wire Line
-	4550 3495 4670 3495
+	4550 3495 4650 3495
 Wire Wire Line
-	4550 3595 4670 3595
+	4550 3595 4660 3595
 Text Label 4670 2895 0    50   ~ 0
 D4
 Text Label 4670 2995 0    50   ~ 0
@@ -213,9 +213,9 @@ Text Label 4670 3195 0    50   ~ 0
 D9
 Text Label 4670 3295 0    50   ~ 0
 D10
-Text Label 4670 3595 0    50   ~ 0
+Text Label 4665 4295 0    50   ~ 0
 D13
-Text Label 4670 3495 0    50   ~ 0
+Text Label 4665 4195 0    50   ~ 0
 D12
 Text Label 4670 3395 0    50   ~ 0
 D11
@@ -1052,34 +1052,34 @@ Wire Notes Line
 Wire Notes Line
 	10250 10115 10240 10115
 Wire Wire Line
-	4550 3695 4665 3695
+	4550 3695 4660 3695
 Wire Wire Line
 	4550 3795 4660 3795
 Wire Wire Line
 	4550 3895 4660 3895
-Text Label 4665 3695 0    50   ~ 0
+Text Label 4660 3595 0    50   ~ 0
 SCK_1
-Text Label 4660 3795 0    50   ~ 0
+Text Label 4650 3495 0    50   ~ 0
 CIPO_1
-Text Label 4660 3895 0    50   ~ 0
+Text Label 4660 3695 0    50   ~ 0
 COPI_1
-Text Label 4695 4295 0    50   ~ 0
+Text Label 4660 3895 0    50   ~ 0
 CS_1
 Wire Wire Line
-	4550 4295 4695 4295
+	4550 4295 4665 4295
 NoConn ~ 9320 8725
 NoConn ~ 9320 8625
 Wire Wire Line
-	4550 4395 4680 4395
+	4550 4395 4665 4395
 Wire Wire Line
-	4550 4495 4685 4495
+	4550 4495 4665 4495
 Wire Wire Line
-	4550 4595 4685 4595
+	4550 4595 4670 4595
 Wire Wire Line
 	4550 4695 4675 4695
-Text Label 4680 4395 0    50   ~ 0
+Text Label 4665 4395 0    50   ~ 0
 DIO5
-Text Label 4685 4495 0    50   ~ 0
+Text Label 4665 4495 0    50   ~ 0
 DIO2
 Text Label 4655 2595 0    50   ~ 0
 DIO1
@@ -1273,11 +1273,11 @@ Text Label 12915 3075 0    50   ~ 0
 TX
 Text Label 12915 2975 0    50   ~ 0
 RX
-Text Label 12915 2875 2    50   ~ 0
-CIPO_0
-Text Label 12915 2775 2    50   ~ 0
-COPI_0
 Text Label 12915 2675 2    50   ~ 0
+CIPO_0
+Text Label 12915 2875 2    50   ~ 0
+COPI_0
+Text Label 12915 2775 2    50   ~ 0
 SCK_0
 Text Label 14110 2770 0    50   ~ 0
 SDA
@@ -1372,7 +1372,7 @@ Wire Wire Line
 	4550 2695 4655 2695
 Text Label 12910 3175 0    50   ~ 0
 D4
-Text Label 4685 4595 0    50   ~ 0
+Text Label 4670 4595 0    50   ~ 0
 D24
 Text Label 4675 4695 0    50   ~ 0
 D25
@@ -1602,7 +1602,7 @@ U 1 1 603F2B8B
 P 6715 5365
 F 0 "SW1" H 6715 5650 50  0000 C CNN
 F 1 "BOOT" H 6715 5559 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 6715 5565 50  0001 C CNN
+F 2 "KiCadLibraries:TS1088R02026" H 6715 5565 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088R-02526_C455281.html" H 6715 5565 50  0001 C CNN
 F 4 "C455281" H 6715 5365 50  0001 C CNN "LCSC#"
 F 5 "TS-1088R-02526" H 6715 5365 50  0001 C CNN "manf#"
@@ -1615,7 +1615,7 @@ U 1 1 603D62B4
 P 6730 6215
 F 0 "SW2" H 6730 6500 50  0000 C CNN
 F 1 "RESET" H 6730 6409 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 6730 6415 50  0001 C CNN
+F 2 "KiCadLibraries:TS1088R02026" H 6730 6415 50  0001 C CNN
 F 3 "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088R-02526_C455281.html" H 6730 6415 50  0001 C CNN
 F 4 "C455281" H 6730 6215 50  0001 C CNN "LCSC#"
 F 5 "TS-1088R-02526" H 6730 6215 50  0001 C CNN "manf#"
@@ -2105,4 +2105,18 @@ F 5 "HGC0402G0220J500NTEJ" H 975 4155 50  0001 C CNN "manf#"
 	1    975  4155
 	1    0    0    -1  
 $EndComp
+Text Label 4605 1705 1    50   ~ 0
+RD+
+Text Label 4605 1930 3    50   ~ 0
+RD-
+Wire Wire Line
+	4605 1705 4605 1795
+Connection ~ 4605 1795
+Wire Wire Line
+	4605 1795 4650 1795
+Wire Wire Line
+	4605 1930 4605 1895
+Connection ~ 4605 1895
+Wire Wire Line
+	4605 1895 4650 1895
 $EndSCHEMATC
