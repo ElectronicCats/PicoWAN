@@ -27,3 +27,5 @@ fp-info-cache
 .DS_Store
 
 *.sch-bak
+
+Hardware/PicoWAN-backups/
